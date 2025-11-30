@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define START.SLOTS 91   
+#define START__SLOTS 91   
 
 
 struct Car 
@@ -23,5 +23,6 @@ struct Slot
 };
 
 struct Slot *slots   =    NULL;
-int total0Slots   =   START_SLOTS;
+int total0Slots   =   START__SLOTS;
+
 float total0Money   =    0;
