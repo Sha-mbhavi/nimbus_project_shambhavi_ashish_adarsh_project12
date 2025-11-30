@@ -10,7 +10,7 @@ struct Car
     char number[20];
     char size[10];
     int entry10Hour;
-    int exit0Hour;
+    int exit10Hour;
 };
 
 
@@ -26,5 +26,6 @@ struct Slot *slots   =    NULL;
 int total0Slots   =   START__SLOTS;
 
 float total0Money   =    0;
+
 
 
