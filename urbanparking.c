@@ -17,7 +17,7 @@ struct Car
 struct Slot 
 {
     int  id;
-    char   size[10];
+    char  size[10];
     int  filled;
     struct Car car;
 };
@@ -26,3 +26,4 @@ struct Slot *slots   =    NULL;
 int total0Slots   =   START__SLOTS;
 
 float total0Money   =    0;
+
